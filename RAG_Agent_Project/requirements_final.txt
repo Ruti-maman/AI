@@ -1,29 +1,28 @@
 # ===================================
 # RAG Agent - LlamaIndex Project
 # ===================================
-# כל הרכיבים לפי דרישות המטלה
 
 # LlamaIndex Core
 llama-index-core>=0.12.0
 
-# Embeddings - Cohere (לפי דרישה)
+# Embeddings - Cohere
 llama-index-embeddings-cohere>=0.4.0
 cohere>=5.0.0
 
-# Vector Store - Pinecone (לפי דרישה)
+# Vector Store - Pinecone
 llama-index-vector-stores-pinecone>=0.4.0
 pinecone-client>=3.0.0
 
-# LLM - Cohere (לפי דרישה)
+# LLM - Cohere
 llama-index-llms-cohere>=0.4.0
 
-# UI - Gradio (לפי דרישה)
+# UI - Gradio
 gradio>=5.9.0
 
 # Utilities
 python-dotenv>=1.0.0
 tqdm>=4.67.0
 
-# SSL Fixes for Windows/Python 3.13
+# SSL Fixes for Windows
 urllib3==1.26.18
 python-certifi-win32>=1.6.0
