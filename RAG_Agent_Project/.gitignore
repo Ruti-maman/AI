@@ -8,7 +8,14 @@ secrets.json
 credentials.json
 
 # ====================================
-# 🐍 Python
+# �️ Local Data / Databases
+# ====================================
+chroma_db/
+storage_local/
+*.sqlite3
+
+# ====================================
+# �🐍 Python
 # ====================================
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -165,9 +172,11 @@ ingest_*.py
 !app_stage_a.py
 !app_workflow.py
 !app_complete_full.py
+!app_local.py
 !ingest_stage_a.py
 !ingest_workflow.py
 !ingest_extraction.py
+!ingest_local.py
 
 # Backup files
 *.backup
