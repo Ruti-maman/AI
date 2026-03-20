@@ -1,0 +1,185 @@
+# ====================================
+# 🔒 SECRETS - CRITICAL! Never commit!
+# ====================================
+.env
+*.env.local
+*.env.*.local
+secrets.json
+credentials.json
+
+# ====================================
+# 🐍 Python
+# ====================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual environments
+venv/
+env/
+ENV/
+venv.bak/
+.venv/
+.Python
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# ====================================
+# 🤖 RAG & Vector Stores (Generated)
+# ====================================
+# LlamaIndex storage
+storage/
+storage_*/
+default__vector_store.json
+docstore.json
+index_store.json
+graph_store.json
+vector_metadata.json
+
+# Chroma DB (old/unused)
+chroma/
+chroma_db/
+chroma_data/
+
+# Pinecone cache (if any)
+.pinecone/
+
+# BM25 storage
+storage_bm25/
+chunks_bm25.json
+
+# Other vector stores
+faiss_index/
+*.index
+*.pkl
+*.pickle
+
+# ====================================
+# 🎨 Gradio
+# ====================================
+.gradio/
+gradio_cached_examples/
+flagged/
+
+# ====================================
+# 💻 IDEs & Editors
+# ====================================
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ====================================
+# 🖥️ Operating Systems
+# ====================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.Trash-*
+
+# ====================================
+# 📊 Logs & Temporary Files
+# ====================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.pid
+logs/
+
+# ====================================
+# 📓 Jupyter Notebooks
+# ====================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ====================================
+# 📦 Package Managers
+# ====================================
+pip-log.txt
+pip-delete-this-directory.txt
+.installed.cfg
+
+# ====================================
+# 🔧 Project Specific
+# ====================================
+# Old/obsolete files (already deleted)
+app.py
+ingest.py
+app_*.py
+ingest_*.py
+!app_stage_a.py
+!app_workflow.py
+!app_complete_full.py
+!ingest_stage_a.py
+!ingest_workflow.py
+!ingest_extraction.py
+
+# Backup files
+*.backup
+*_old.*
+*_backup.*
+
+# ====================================
+# ✅ ALWAYS COMMIT (exceptions)
+# ====================================
+# These should be tracked
+!.env.example
+!dummy_data/
+!requirements_final.txt
+!README.md
+!QUICKSTART.md
