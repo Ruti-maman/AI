@@ -1,9 +1,0 @@
-# Secrets (כאן אנחנו מסתירים את המפתח!)
-.env
-
-# Python
-__pycache__/
-.venv/
-
-# IDE
-.idea/
